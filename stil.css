@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./imagini/IMG_20211208_180418.jpg);
+  background-image: url('https://source.unsplash.com/1920x1080/?landscape');
   margin-bottom: 1px;
   
 }

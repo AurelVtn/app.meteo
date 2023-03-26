@@ -42,8 +42,7 @@ const getWeather = async (localitate) => {
     document.querySelector(".starea-vremii").style.display = "block";
     document.querySelector(".eroare").style.display = "none";
     loader.style.display = "none";
-    document.body.style.backgroundImage =
-    "url('https://source.unsplash.com/1920x1080/?" + localitate + "')";
+   
 
   }
 };
