@@ -7,7 +7,7 @@ const getWeather = async (localitate) => {
   loader.style.display = "block";
 
   const api =
-    "http://api.weatherapi.com/v1/current.json?key=51ddbb4ef0a049a1b0a193940231803&q=";
+    "https://api.weatherapi.com/v1/current.json?key=51ddbb4ef0a049a1b0a193940231803&q=";
   const response = await fetch(api + localitate);
 
   let data = await response.json();
