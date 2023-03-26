@@ -6,7 +6,9 @@ const buton = document.querySelector("#buton");
 
 const getWeather = async (localitate) => {
   const loader = document.querySelector("#loader");
+  document.querySelector(".starea-vremii").style.display = "none";
   loader.style.display = "block";
+
 
   const api =
     "https://api.weatherapi.com/v1/current.json?key=51ddbb4ef0a049a1b0a193940231803&q=";
@@ -18,7 +20,6 @@ const getWeather = async (localitate) => {
 
   if (response.status == 400) {
     document.querySelector(".eroare").style.display = "block";
-    document.querySelector(".starea-vremii").style.display = "none";
     loader.style.display = "none";
   
   } else {
