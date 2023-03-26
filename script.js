@@ -2,6 +2,8 @@
 const input = document.querySelector("#search-bar");
 const buton = document.querySelector("#buton");
 
+
+
 const getWeather = async (localitate) => {
   const loader = document.querySelector("#loader");
   loader.style.display = "block";
@@ -9,6 +11,8 @@ const getWeather = async (localitate) => {
   const api =
     "https://api.weatherapi.com/v1/current.json?key=51ddbb4ef0a049a1b0a193940231803&q=";
   const response = await fetch(api + localitate);
+
+  
 
   let data = await response.json();
 
