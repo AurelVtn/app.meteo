@@ -1,5 +1,16 @@
 
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/imagini/IMG_20230326_192822.jpg');
+  background-size: cover;
+  
+}
 
+
+/* Card */
 .titlu {
   display: flex;
   justify-content: flex-start;
@@ -11,18 +22,6 @@
 }
 
 
-
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('https://source.unsplash.com/3840x2160/?landscape');
-  margin-bottom: 1px;
-  
-}
-
-/* Card */
 .card {
   background-color: rgba(181, 236, 236, 0.9);
   padding: 2rem;
