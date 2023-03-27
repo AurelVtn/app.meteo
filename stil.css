@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/imagini/IMG_20230326_192822.jpg');
+  background-image: url('imagini/IMG_20230326_192822.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   
